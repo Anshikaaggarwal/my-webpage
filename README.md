@@ -1,12 +1,47 @@
-# React + Vite
+# Anshika Aggarwal — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio built with **React + Vite**, animated with **GSAP**, styled with **Tailwind CSS**, and deployed on **Vercel**. It showcases projects, experience, mentorship, and contact details.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+**https://anshika-aggarwal-portfolio.vercel.app/**  
+(Visit the link above or click: https://anshika-aggarwal-portfolio.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+- Responsive, accessible layout  
+- Smooth animations using **GSAP** (+ optional Lenis for smooth scrolling)  
+- Projects showcase, experience timeline, contact form/links  
+- Deployed on **Vercel**
+
+---
+
+## 🛠 Tech Stack
+- React (Vite)
+- Tailwind CSS
+- GSAP (GreenSock)
+- React Three Fiber (optional 3D)
+- Vercel (deployment)
+
+---
+
+## 🧰 Local Setup
+
+```bash
+# clone (replace if repo URL differs)
+git clone https://github.com/Anshikaaggarwal/my-webpage.git
+cd my-webpage
+
+# install
+npm install
+
+# dev server
+npm run dev
+
+# build for production
+npm run build
+
+# preview production build locally
+npm run preview
