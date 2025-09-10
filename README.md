@@ -1,12 +1,32 @@
-# React + Vite
+🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio built with React + Vite, animated using GSAP, and styled with Tailwind CSS.
+It showcases my skills, projects, experience, and contact details, all in a smooth and interactive UI.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive design (works on all devices 📱💻)
 
-## Expanding the ESLint configuration
+Smooth scroll and animations with GSAP + Lenis
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Projects showcase and experience timeline
+
+Contact form and social media links
+
+Deployed on Vercel
+
+🔗 Live Demo
+
+👉 Visit my Portfolio
+
+🛠️ Tech Stack
+
+React + Vite
+
+Tailwind CSS
+
+GSAP (GreenSock)
+
+React Three Fiber (for 3D elements)
+
+Vercel (deployment)
