@@ -82,7 +82,7 @@ export const projects = [
     description:
       "A healthcare platform for the LGBTQ+ community with FastAPI backend, PostgreSQL, and ML-based HRT risk assessment. Includes telemedicine consultations, trackers, chatbot, and inclusive features.",
     href: "https://github.com/mahak2005/transcare",
-    image: "/assets/projects/transcare.jpg",
+    image: "/assets/projects/transcare.png",
     bgImage: "/assets/backgrounds/trans.jpg",
     frameworks: [
       { id: 1, name: "FastAPI" },
@@ -127,7 +127,7 @@ export const projects = [
     description:
       "Smart Shopping Assistant app with barcode scanning, queue management, and AI-driven personalized recommendations to enhance in-store shopping.",
     href: "https://github.com/Anshikaaggarwal/customer-app",
-    image: "/assets/projects/customer-app.jpg",
+    image: "/assets/projects/customer-app.png",
     bgImage: "/assets/backgrounds/store-app.jpg",
     frameworks: [
       { id: 1, name: "ReactJS" },

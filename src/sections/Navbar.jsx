@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect} from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { socials } from "../constants";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -107,17 +107,18 @@ const Navbar = () => {
       bg-black text-white/80 py-28 gap-y-10 md:w-1/2 md:left-1/2"
       >
         <div className="flex flex-col text-5xl gap-y-2 md:text-6xl lg:text-8xl">
-          {["home", "contact", "about", "experience", "projects"].map(
+          {["home", "contact", "about", "services", "works"].map(
             (section, index) => (
               <div key={index} ref={(el) => (LinksRef.current[index] = el)}>
-                {/* get this transition when we click on services */}
-                <Link className="transition-all duration-300 hover:text-white"
-                to={section}
-                smooth
-            //Makes the scroll animation smooth instead of an instant jump.
-                offset={0}
-                //stop exactly at the top of the target element when u scroll
-                duration={2000}
+                {/* get this transition when we click on links */}
+                <Link
+                  className="transition-all duration-300 hover:text-white"
+                  to={section}
+                  smooth
+                  //Makes the scroll animation smooth instead of an instant jump.
+                  offset={0}
+                  //stop exactly at the top of the target element when u scroll
+                  duration={2000}
                 >
                   {section}
                 </Link>

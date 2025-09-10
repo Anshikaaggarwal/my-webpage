@@ -7,15 +7,16 @@ import { Environment, Lightformer, Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 const Hero = () => {
-  const isMobile = useMediaQuery({maxWidth: 853 });
-  const text= " I can work on both front-end and back-end development, creating seamless and efficient web applications and can guarantee a smooth user experience.";
- return (
+  const isMobile = useMediaQuery({ maxWidth: 853 });
+  const text =
+    " I can work on both front-end and back-end development, creating seamless and efficient web applications and can guarantee a smooth user experience.";
+  return (
     <section id="home" className="flex flex-col justify-end min-h-screen ">
       <AnimatedHeaderSection
-      subTitle={"404 No bugs found"}
-      title={"Anshika Aggarwal"}
-      aboutText={text}
-      textColor={"text-black"}
+        subTitle={"404 No bugs found"}
+        title={"Anshika Aggarwal"}
+        aboutText={text}
+        textColor={"text-black"}
       />
       <figure
         className="absolute inset-0 -z-50"
@@ -29,7 +30,7 @@ const Hero = () => {
           <ambientLight intensity={0.9} />
           {/* change light intensity */}
           <Float speed={5}>
-            <Planet scale= {isMobile ? 0.7 : 1 } />
+            <Planet scale={isMobile ? 0.7 : 1} />
           </Float>
 
           <Environment resolution={180}>

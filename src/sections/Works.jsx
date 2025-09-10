@@ -182,7 +182,7 @@ border-8 border-black pointer-events-none w-[960px] md:block hidden opacity-0"
 
           {currentIndex !== null && (
             <img
-              src={projects[currentIndex].bgImage}
+              src={projects[currentIndex].image}
               alt="preview"
               className="object-cover w-full h-full"
             />
