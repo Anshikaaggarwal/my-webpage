@@ -1,32 +1,47 @@
-🌐 Personal Portfolio Website
+# Anshika Aggarwal — Personal Portfolio
 
-This is my personal portfolio built with React + Vite, animated using GSAP, and styled with Tailwind CSS.
-It showcases my skills, projects, experience, and contact details, all in a smooth and interactive UI.
+A personal portfolio built with **React + Vite**, animated with **GSAP**, styled with **Tailwind CSS**, and deployed on **Vercel**. It showcases projects, experience, mentorship, and contact details.
 
-🚀 Features
+---
 
-Responsive design (works on all devices 📱💻)
+## 🔗 Live Demo
+**https://anshika-aggarwal-portfolio.vercel.app/**  
+(Visit the link above or click: https://anshika-aggarwal-portfolio.vercel.app/)
 
-Smooth scroll and animations with GSAP + Lenis
+---
 
-Projects showcase and experience timeline
+## 🚀 Features
+- Responsive, accessible layout  
+- Smooth animations using **GSAP** (+ optional Lenis for smooth scrolling)  
+- Projects showcase, experience timeline, contact form/links  
+- Deployed on **Vercel**
 
-Contact form and social media links
+---
 
-Deployed on Vercel
+## 🛠 Tech Stack
+- React (Vite)
+- Tailwind CSS
+- GSAP (GreenSock)
+- React Three Fiber (optional 3D)
+- Vercel (deployment)
 
-🔗 Live Demo
+---
 
-👉 Visit my Portfolio
+## 🧰 Local Setup
 
-🛠️ Tech Stack
+```bash
+# clone (replace if repo URL differs)
+git clone https://github.com/Anshikaaggarwal/my-webpage.git
+cd my-webpage
 
-React + Vite
+# install
+npm install
 
-Tailwind CSS
+# dev server
+npm run dev
 
-GSAP (GreenSock)
+# build for production
+npm run build
 
-React Three Fiber (for 3D elements)
-
-Vercel (deployment)
+# preview production build locally
+npm run preview
